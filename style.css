@@ -82,28 +82,28 @@ form {
         flex-direction: column;
         overflow-y: scroll;
     }
+}
 
-    @media screen and (max-width: 700px) {
-        .redes-sociales-1 {
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-        }
+@media screen and (max-width: 700px) {
+    .redes-sociales-1 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
 
-        @media screen and (max-width: 375px) {
-            .untref {
-                background-size: contain;
-                height: 220px;
-            }
+@media screen and (max-width: 375px) {
+    .untref {
+        background-size: contain;
+        height: 220px;
+    }
+}
 
-            @media screen and (max-width: 700px) {
-                form {
-                    display: flex;
-                    flex-wrap: nowrap;
-                    flex-direction: column;
-                    width: 100%;
-                }
-            }
-        }
+@media screen and (max-width: 700px) {
+    form {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        width: 100%;
     }
 }
