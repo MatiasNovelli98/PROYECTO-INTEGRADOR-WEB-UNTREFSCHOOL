@@ -1,21 +1,24 @@
-*{
+* {
     font-family: "Poppins";
     margin: 0;
     padding: 0;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
-header{
+
+header {
     top: 0;
     position: sticky;
     background-color: white;
 }
-h1{
-    font-family:'Poppins';
+
+h1 {
+    font-family: 'Poppins';
 }
-.untref{
+
+.untref {
     display: flex;
     height: 40rem;
     justify-content: center;
@@ -26,11 +29,13 @@ h1{
     background-size: cover;
     text-align: center;
 }
-h2{
+
+h2 {
     background-color: #1F8A70;
     font-family: Belanosima;
 }
-h4{
+
+h4 {
     background-color: #EFF5F5;
 }
 
@@ -39,12 +44,14 @@ h4{
     display: flex;
     height: 400px;
 }
-.ultimas-noticias p{
+
+.ultimas-noticias p {
     overflow-y: scroll;
     height: 300px;
     margin: 2rem;
     padding: 2rem;
 }
+
 .redes-sociales-1 {
     background-color: #00425A;
     color: white;
@@ -52,46 +59,51 @@ h4{
     flex-direction: row;
     justify-content: space-around;
 }
-[id]{
+
+[id] {
     scroll-margin-top: 7rem;
 }
 
-form{
+form {
     width: 150px;
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    
+
 }
-#msg{
+
+#msg {
     height: 50px;
 }
 
-@media screen and (max-width: 700px){ 
-    .ultimas-noticias{
+@media screen and (max-width: 700px) {
+    .ultimas-noticias {
         display: flex;
         flex-direction: column;
         overflow-y: scroll;
-}
-   
-@media screen and (max-width: 700px){ 
-    .redes-sociales-1{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-@media screen and (max-width: 375px){ 
-    .untref{
-    background-size: contain;
-    height: 220px;
-}    
-
-@media screen and (max-width: 375px){ 
-    form{
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: column;
-        width: 100%;
     }
-}      
+
+    @media screen and (max-width: 700px) {
+        .redes-sociales-1 {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        @media screen and (max-width: 375px) {
+            .untref {
+                background-size: contain;
+                height: 220px;
+            }
+
+            @media screen and (max-width: 700px) {
+                form {
+                    display: flex;
+                    flex-wrap: nowrap;
+                    flex-direction: column;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
