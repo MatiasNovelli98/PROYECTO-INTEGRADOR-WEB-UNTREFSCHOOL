@@ -1,0 +1,97 @@
+*{
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+header{
+    top: 0;
+    position: sticky;
+    background-color: white;
+}
+h1{
+    font-family:'Poppins';
+}
+.untref{
+    display: flex;
+    height: 40rem;
+    justify-content: center;
+    align-items: self-start;
+    background-image: url(/Universidad.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+h2{
+    background-color: #1F8A70;
+    font-family: Belanosima;
+}
+h4{
+    background-color: #EFF5F5;
+}
+
+.ultimas-noticias {
+    margin: 1rem;
+    display: flex;
+    height: 400px;
+}
+.ultimas-noticias p{
+    overflow-y: scroll;
+    height: 300px;
+    margin: 2rem;
+    padding: 2rem;
+}
+.redes-sociales-1 {
+    background-color: #00425A;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+[id]{
+    scroll-margin-top: 7rem;
+}
+
+form{
+    width: 150px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#msg{
+    height: 50px;
+}
+
+@media screen and (max-width: 700px){ 
+    .ultimas-noticias{
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+}
+   
+@media screen and (max-width: 700px){ 
+    .redes-sociales-1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+@media screen and (max-width: 375px){ 
+    .untref{
+    background-size: contain;
+    height: 220px;
+}    
+
+@media screen and (max-width: 375px){ 
+    form{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        width: 100%;
+    }
+}      
